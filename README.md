@@ -1,42 +1,29 @@
 
 
-# sdf
+# Readme Generator
 
+A command-line application to generate a README file, allowing the project creator to devote more time working on the project.
 
+## User Story
 
+```
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
+```
 
+[Project link](https://baileymclem.github.io/readme-generator/)
 
-sdf
+![Image of  ](https://github.com/baileymclem/readme-generator/blob/main/readme.gif)
 
-Table of contents
-=================
+## Built With
 
-<!--ts-->
-   * [Questions](#question)
-   * [Table of contents](#table-of-contents)
-   * [Installation](#installation)
-   * [Usage](#usage)
-   * [Contribution Guidelines](#contribution-guidlines)
-   * [Tests](#tests)
-<!--te-->
+* Node.js
 
-## Installation
+## Contact
 
-sd
+baileymclem@gmail.com
 
-## Usage
+## Licsense
 
-sd
-
-## Contribution Guidelines
-
-sd
-
-## Tests
-
-sd
-
-## Question
-
-You can email me at- [sd](sd)
-You can view more of my work at- sd
+None
