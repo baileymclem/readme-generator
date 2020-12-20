@@ -12,8 +12,6 @@ I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
 
-[Project link](https://baileymclem.github.io/readme-generator/)
-
 ![Image of  ](https://github.com/baileymclem/readme-generator/blob/main/readme.gif)
 
 ## Built With
