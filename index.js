@@ -25,7 +25,7 @@ function generateMarkdown(data) {
       break;
     case "ISC":
       license =
-      "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
+        "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
       break;
   }
 
@@ -35,21 +35,23 @@ function generateMarkdown(data) {
 
 ${license}
 
-
-
-${data.description}
-
 Table of contents
 =================
 
 <!--ts-->
-   * [Questions](#question)
-   * [Table of contents](#table-of-contents)
+   * [Description](#description)
    * [Installation](#installation)
    * [Usage](#usage)
-   * [Contribution Guidelines](#contribution-guidlines)
+   * [Contributing](#contribution-guidelines)
    * [Tests](#tests)
+   * [Questions](#question)
 <!--te-->
+
+
+## Description
+
+${data.description}
+
 
 ## Installation
 
@@ -59,7 +61,7 @@ ${data.install}
 
 ${data.usage}
 
-## Contribution Guidelines
+## Contributing
 
 ${data.contribution}
 
@@ -67,14 +69,13 @@ ${data.contribution}
 
 ${data.test}
 
-## Question
+## Questions, Comments, Issues
 
-You can email me at- [${data.email}](${data.email})
-You can view more of my work at- ${data.username}
+Email me at- [${data.email}](${data.email})
+Or visit my Github profile- ${data.username}
 `;
 }
 
-//module.exports = generateMarkdown;
 
 // array of questions for user
 
@@ -123,7 +124,7 @@ const questions = [
   {
     type: "input",
     message: "What are the contribution guidelines?",
-    name: "contribution",
+    name: "contributing",
   },
 ];
 
