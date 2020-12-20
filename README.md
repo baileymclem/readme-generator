@@ -24,17 +24,13 @@ A Node.js command-line application that generates a README.md file using user in
 
 ## Installation
 
-Run in your terminal
-
-(npm i)
+`npm i`
 
 ## Usage
 
-Then run
-
-(node index.js)
-
+`node index.js`
 The app template is pretty basic, so some editing will be required if needed.
+![Walk through]()
 
 ## Contributing
 
