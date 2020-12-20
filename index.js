@@ -3,7 +3,6 @@ var fs = require("fs");
 
 // function to generate markdown for README
 function generateMarkdown(data) {
-  console.log("data", data.license);
 
   var license = "";
 
@@ -24,8 +23,9 @@ function generateMarkdown(data) {
       license =
         "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
       break;
-    default:
-      license = "";
+    case "ISC":
+      license =
+      "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
       break;
   }
 
@@ -118,7 +118,7 @@ const questions = [
     type: "list",
     message: "What kind of license should your project have",
     name: "license",
-    choices: ["MIT", "Boost", "Apache 2.0", "Creative Commons", "None"],
+    choices: ["MIT", "Boost", "Apache 2.0", "Creative Commons", "ISC"],
   },
   {
     type: "input",
